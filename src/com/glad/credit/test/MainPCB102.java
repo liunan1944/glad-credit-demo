@@ -20,11 +20,9 @@ import com.glad.credit.util.ImageUtils;
  */
 public class MainPCB102 {
 	// TODO 请联系格兰德员工提供相关的账号信息
-	public static String ACCOUNT_ID = "CREDIT_TEST_ACCTID";
-	public static String HEX_AES_128_PASSWORD = "5d8f090cb619624819a78e145266334a";
-//	public static String TEST_URI = "http://122.152.195.249:21000/credit-gw/service";
-	public static String TEST_URI = "http://152.136.179.88:21000/credit-gw/service";
-//	public static String ONLINE_URI = "https://api2.x315.com/credit-gw/service";
+	public static String ACCOUNT_ID = "XXXX";
+	public static String HEX_AES_128_PASSWORD = "XXXX";
+	public static String TEST_URI = "http://122.152.195.249:21000/credit-gw/service";
 
 	public static void main(String[] paras) throws Exception {
 		String req_sn1 = UUID.randomUUID().toString().replace("-", "");
