@@ -51,8 +51,7 @@ public class MainPCB142 {
 		ProductDto productDto = new ProductDto();
 		productDto.setAcct_id(ACCOUNT_ID);
 		//产品编号
-		productDto.setInf_id("P_C_B142");
-		productDto.setProd_id("P_C_B142");
+		productDto.setProd_id("P_C_B145");
 		productDto.setReq_time(System.currentTimeMillis());
 		productDto.setRequest_sn(req_sn1); //请保证这个id唯一
 		productDto.setReq_data(productDetailParam);
