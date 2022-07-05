@@ -36,20 +36,19 @@ public class MainPCB008 {
 //	public static String ONLINE_URI = "https://api2.x315.com/credit-gw/service";
 
     //超时时间设置10s
-	private static final int timeout = 20000;
+	private static final int timeout = 10000;
 	public static void main(String[] paras) throws Exception {
 		String req_sn1 = UUID.randomUUID().toString().replace("-", "");
 		System.out.println("请求交易号为:"+req_sn1);
 		Map<String, Object> productDetailParam = new HashMap<>();
 			
 		//产品入参
-		productDetailParam.put("name", "刘南");//姓名
-		productDetailParam.put("cardNo", "130XXXX467X");//身份证号
+		productDetailParam.put("name", "XX");//姓名
+		productDetailParam.put("cardNo", "XXXXXXX");//身份证号
 		
 		ProductDto productDto = new ProductDto();
 		productDto.setAcct_id(ACCOUNT_ID);
 		//产品编号
-		productDto.setInf_id("P_C_B008");
 		productDto.setProd_id("P_C_B008");
 		productDto.setReq_time(System.currentTimeMillis());
 		productDto.setRequest_sn(req_sn1); //请保证这个id唯一
