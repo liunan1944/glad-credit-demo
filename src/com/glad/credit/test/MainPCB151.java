@@ -44,13 +44,12 @@ public class MainPCB151 {
 			
 		//产品入参
 		productDetailParam.put("name", "XX");//姓名
-		productDetailParam.put("cardNo", "33XXXXXX");//身份证号
-		productDetailParam.put("mobile", "18XXXX7");//手机号
+		productDetailParam.put("cardNo", "XXXXXXX");//身份证号
+		productDetailParam.put("mobile", "XXXXX");//手机号
 		
 		ProductDto productDto = new ProductDto();
 		productDto.setAcct_id(ACCOUNT_ID);
 		//产品编号
-		productDto.setInf_id("P_C_B151");
 		productDto.setProd_id("P_C_B151");
 		productDto.setReq_time(System.currentTimeMillis());
 		productDto.setRequest_sn(req_sn1); //请保证这个id唯一
